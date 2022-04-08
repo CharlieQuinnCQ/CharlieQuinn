@@ -9,6 +9,26 @@ body {
 	background-color: #FFFFFF;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
 /* Changing the background colour for the header */
 
 header {
@@ -26,3 +46,5 @@ header {
 footer a:hover {
 	opacity: .5;
 }
+
+
