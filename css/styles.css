@@ -29,6 +29,10 @@ body {
   right: 16px;
 }
 
+.campaignmargin {
+	margin-bottom: 60px;
+}
+
 /* Changing the background colour for the header */
 
 header {
@@ -48,3 +52,5 @@ footer a:hover {
 }
 
 
+.margin {
+}
