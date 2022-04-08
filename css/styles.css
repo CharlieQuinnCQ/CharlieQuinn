@@ -11,7 +11,6 @@ body {
 
 .container {
   position: relative;
-  text-align: center;
   color: black;
 }
 
@@ -31,6 +30,14 @@ body {
 
 .campaignmargin {
 	margin-bottom: 60px;
+}
+
+.money {
+	font-size: 40px;
+}
+
+.textonvalue {
+	font-size: 40px;
 }
 
 /* Changing the background colour for the header */

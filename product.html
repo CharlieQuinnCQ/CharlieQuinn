@@ -20,7 +20,7 @@
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="images/logo-cq.png" width="40" alt="Charlie Quinn">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,28 +32,16 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Product</a>
+              <a class="nav-link active" aria-current="page" href="product.html">Product</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link" href="#">About CQ</a>
+              <a class="nav-link" href="about.html">About CQ</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link" href="#">Campaign</a>
+              <a class="nav-link" href="campaign.html">Campaign</a>
             </li>
 			<li class="nav-item">
               <a class="nav-link" href="team.html">The Team</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Justification
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Marketing</a></li>
-                <li><a class="dropdown-item" href="#">Production</a></li>
-				<li><a class="dropdown-item" href="#">Content</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Management</a></li>
-              </ul>
             </li>
           </ul>
         </div>
@@ -61,31 +49,22 @@
     </nav>
     <!-- End of navigation bar -->
 
-
-    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
-   
-    <!-- End of hero section -->
-
-    <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
-   
-    <!-- End of carrousel -->
-
     <!-- A grid with cards
       Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
       Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
     -->
     <main class="container py-4">
-      <div class="row g-3 justify-content-evenly">
+      <div class="row g-3 justify-content-between">
 
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
             <a href="hoodie1.html"> <img class="img-fluid" src="images/WhiteHoodie1.png" alt="Hoodie 1"> </a>
-            <div class="card-body">
+			<div class="card-body">
               <h5 class="card-title">Hoodie 1</h5>
               <p class="card-text">This hoodie is so amazing.</p>
-			  <p class="card-text">€30,-</p>
-			  <p class="card-text">White or black</p>
+			  <p class="card-text money">€30,-</p>
+			  <p class="card-text">White / Black</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="hoodie1.html" class="btn btn-primary">Order</a>
@@ -100,8 +79,8 @@
             <div class="card-body">
               <h5 class="card-title">Hoodie 2</h5>
               <p class="card-text">This hoodie is so amazing.</p>
-			  <p class="card-text">€30,-</p>
-			  <p class="card-text">White or black</p>
+			  <p class="card-text money">€30,-</p>
+			  <p class="card-text">White / Black</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="hoodie2.html" class="btn btn-primary">Order</a>
@@ -116,8 +95,8 @@
             <div class="card-body">
               <h5 class="card-title">Hoodie 3</h5>
               <p class="card-text">This hoodie is so amazing.</p>
-			  <p class="card-text">€30,-</p>
-			  <p class="card-text">White or black</p>
+			  <p class="card-text money">€30,-</p>
+			  <p class="card-text">White / Black</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="hoodie3.html" class="btn btn-primary">Order</a>
@@ -136,7 +115,7 @@
     <footer class="shadow-lg mt-5 py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
-          © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
+          © 2021–2022 — Breda University of Applied Sciences
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
