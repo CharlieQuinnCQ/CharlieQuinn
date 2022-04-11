@@ -9,6 +9,10 @@ body {
 	background-color: #FFFFFF;
 }
 
+.cqfont {
+	font-family: sans-serif;
+}
+
 .container {
   position: relative;
   color: black;
